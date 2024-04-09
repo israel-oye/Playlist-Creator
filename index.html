@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super DJ</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.2/dist/cyborg/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/868c606ea8.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="">
+    <div class="container-fluid col-lg-6 col-md-8 mx-auto p-3 mt-lg-5 mt-3 shadow-sm">
+        <h3 class="text-center text-decoration-underline text-warning">Super DJ <i class="fa-solid fa-music fa-beat"></i></h3>
+        <input type="text" id="songName" class="form-control form-control-sm my-3 w-100 shadow-none" placeholder="Enter Song title">
+        <input type="text" id="songArtist" class="form-control form-control-sm my-3 w-100 shadow-none" placeholder="Enter Song artiste">
+        <button class="btn btn-sm btn-warning text-center" onclick="addSong()">Submit</button>
+        <button class="btn btn-sm btn-danger text-center" onclick="deleteSong()">Delete</button>
+    </div>
+
+    <div id="showPlaylist" class="text-info my-4 container-fluid mx-auto p-3 shadow"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
